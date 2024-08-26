@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Main </title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+
+            #txt_welcome {
+                text-align: center; 
+                margin-bottom: 50px;
+            }
+
+            .card {
+                text-align: center;
+            }
+
+            .card_title {
+                font-size: 20px;
+            }
+
+            .card_button {
+                font-size: 25px;
+                width: 150px;
+                height: 30px;
+            }
+
+            .card_img {
+                width: 300px;
+                height: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> AnDev's portfolio</h1>
+        <div id="txt_welcome">
+            Welcome to AnDev's portfolio!<br>
+        
+            <br>
+            <br>
+        </div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr;">
+            <div class="card">
+                <img class="card_img" src="./pro_img/tennis.jpg">
+                <p class="card_title"> 테니스 마켓 </p>
+                <input class="card_button" type="button" value="go to site">
+            </div>
+            <div class="card">
+                <img class="card_img" src="./pro_img/concert.png">
+                <p class="card_title"> 콘서트 예매 사이트 </p>
+                <input class="card_button" type="button" value="go to site">
+            </div>
+            <div class="card">
+                <img class="card_img" src="./pro_img/books.png">
+                <p class="card_title"> 도서구매 사이트 </p>
+                <input class="card_button" type="button" value = "go to site">
+            </div>
+        </div>
+    </body>
+</html>
